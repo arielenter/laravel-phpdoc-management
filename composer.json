@@ -1,0 +1,42 @@
+{
+    "name": "arielenter/laravel-phpdoc-management",
+    "description": "Manages the phpdoc comments of a given file.",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "dist": {
+        "url": "https://github.com/arielenter/laravel-phpdoc-management/archive/refs/tags/v1.0.0.tar.gz",
+        "type": "tar"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arielenter\\LaravelPhpdocManagement\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests\/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arielenter\\LaravelPhpdocManagement\\ServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Ariel Del Valle Lozano",
+            "email": "arielmazatlan@gmail.com"
+        }
+    ],
+    "require": {
+        "arielenter/laravel-test-translations": "^1.5",
+        "laravel/laravel": "^12.10",
+        "arielenter/laravel-code-snippets": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.6",
+        "arielenter/array-to-phpdoc": "^2.0"
+    }
+}
