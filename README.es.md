@@ -219,7 +219,7 @@ $nuevo = $filePhpdocManager->translateKeys($original);
 
 ```
 
-Si usamos la función ‘print_r’ en la variable ‘$arielenter_laravel_phpdoc_management::array_values.new’ veremos que las llaves han sido renombradas de manera correspondiente:
+Si usamos la función ‘print_r’ en la variable ‘$nuevo’ veremos que las llaves han sido renombradas de manera correspondiente:
 
 ```php
 Array

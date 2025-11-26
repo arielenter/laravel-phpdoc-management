@@ -212,7 +212,7 @@ $new = $filePhpdocManager->translateKeys($original);
 
 ```
 
-If we use ‘print_r’ on the variable ‘$arielenter_laravel_phpdoc_management::array_values.new’ we’ll now see that array’s key have been change accordingly:
+If we use ‘print_r’ on the variable ‘$new’ we’ll now see that array’s key have been change accordingly:
 
 ```php
 Array

@@ -2,7 +2,7 @@
 
 use Arielenter\LaravelPhpdocManagement\ServiceProvider;
 
-$prefix = ServiceProvider::TRANSLATIONS . '::';
+$prefix = ServiceProvider::TRANSLATIONS . '::test.';
 
 return [
     'class' => 'clase',
@@ -13,7 +13,7 @@ return [
     
     'suppose_we_have_a_file' => __(
         'Supongamos que tenemos un archivo ‘:file’ con el siguiente contenido:',
-        [ 'file' => __($prefix . 'test.update_values.file', locale: 'es') ]
+        [ 'file' => __($prefix . 'update_values.file', locale: 'es') ]
     ),
     
     'we_can_run' => 'Podemos ejecutar el siguiente código:',
