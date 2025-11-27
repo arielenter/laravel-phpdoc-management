@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "681271e4b8dba27195a03f95e8d531d5",
+    "content-hash": "9f3a28f1f7833461a70c7d32c3983d45",
     "packages": [
+        {
+            "name": "arielenter/array-to-phpdoc",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arielenter/array-to-phpdoc.git",
+                "reference": "86f07d9b60e788e93636c6f97050e245a2ce5920"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://github.com/arielenter/array-to-phpdoc/archive/refs/tags/v2.0.0.tar.gz",
+                "reference": "86f07d9b60e788e93636c6f97050e245a2ce5920"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^12.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Arielenter\\ArrayToPhpdoc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ariel Del Valle Lozano",
+                    "email": "arielmazatlan@gmail.com"
+                }
+            ],
+            "description": "Generates phpdoc comments.",
+            "support": {
+                "issues": "https://github.com/arielenter/array-to-phpdoc/issues",
+                "source": "https://github.com/arielenter/array-to-phpdoc/tree/v2.0.0"
+            },
+            "time": "2025-11-18T05:02:12+00:00"
+        },
         {
             "name": "arielenter/laravel-code-snippets",
             "version": "1.0.0",
@@ -6129,45 +6168,6 @@
         }
     ],
     "packages-dev": [
-        {
-            "name": "arielenter/array-to-phpdoc",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/arielenter/array-to-phpdoc.git",
-                "reference": "86f07d9b60e788e93636c6f97050e245a2ce5920"
-            },
-            "dist": {
-                "type": "tar",
-                "url": "https://github.com/arielenter/array-to-phpdoc/archive/refs/tags/v2.0.0.tar.gz",
-                "reference": "86f07d9b60e788e93636c6f97050e245a2ce5920"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Arielenter\\ArrayToPhpdoc\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Ariel Del Valle Lozano",
-                    "email": "arielmazatlan@gmail.com"
-                }
-            ],
-            "description": "Generates phpdoc comments.",
-            "support": {
-                "issues": "https://github.com/arielenter/array-to-phpdoc/issues",
-                "source": "https://github.com/arielenter/array-to-phpdoc/tree/v2.0.0"
-            },
-            "time": "2025-11-18T05:02:12+00:00"
-        },
         {
             "name": "composer/semver",
             "version": "3.4.4",
