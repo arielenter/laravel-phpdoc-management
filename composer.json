@@ -37,6 +37,6 @@
         "arielenter/array-to-phpdoc": "^2.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^10.6"
+        "orchestra/testbench": "^10.7"
     }
 }
