@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f3a28f1f7833461a70c7d32c3983d45",
+    "content-hash": "97280fb728582dd97924cc7358ac7477",
     "packages": [
         {
             "name": "arielenter/array-to-phpdoc",
@@ -47,23 +47,23 @@
         },
         {
             "name": "arielenter/laravel-code-snippets",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/arielenter/laravel-code-snippets.git",
-                "reference": "c606e34ee1c866ff8871a6342bb4429d7e6ca03f"
+                "reference": "2745bba81c05c8ee458a4cf070dca9a1675b0e5b"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/arielenter/laravel-code-snippets/zipball/c606e34ee1c866ff8871a6342bb4429d7e6ca03f",
-                "reference": "c606e34ee1c866ff8871a6342bb4429d7e6ca03f",
-                "shasum": ""
+                "type": "tar",
+                "url": "https://github.com/arielenter/laravel-code-snippets/archive/refs/tags/v2.0.0.tar.gz",
+                "reference": "2745bba81c05c8ee458a4cf070dca9a1675b0e5b"
             },
             "require": {
+                "arielenter/laravel-test-translations": "^1.5",
                 "laravel/laravel": "^12.4"
             },
             "require-dev": {
-                "arielenter/laravel-test-translations": "^1.5",
+                "arielenter/laravel-phpdoc-management": "*",
                 "orchestra/testbench": "^10.4"
             },
             "suggest": {
@@ -95,9 +95,9 @@
             "description": "Collection of little helpers neither big nor relevant enough to be their own packages.",
             "support": {
                 "issues": "https://github.com/arielenter/laravel-code-snippets/issues",
-                "source": "https://github.com/arielenter/laravel-code-snippets/tree/v1.0.0"
+                "source": "https://github.com/arielenter/laravel-code-snippets/tree/v2.0.0"
             },
-            "time": "2025-09-21T03:09:40+00:00"
+            "time": "2025-11-29T17:44:58+00:00"
         },
         {
             "name": "arielenter/laravel-test-translations",

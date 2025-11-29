@@ -42,7 +42,8 @@ Permite administrar los comentarios phpdoc de un archivo dado.
 
 #### Ejemplo de uso
 
-Supongamos que tenemos un archivo ‘tests/ClaseEjemplo.php’ con el siguiente contenido:
+Supongamos que tenemos un archivo ‘tests/ClaseEjemplo.php’ con el siguiente
+contenido:
 
 ```php
 <?php
@@ -219,7 +220,8 @@ $nuevo = $filePhpdocManager->translateKeys($original);
 
 ```
 
-Si usamos la función ‘print_r’ en la variable ‘$nuevo’ veremos que las llaves han sido renombradas de manera correspondiente:
+Si usamos la función ‘print_r’ en la variable ‘$nuevo’ veremos que las
+llaves han sido renombradas de manera correspondiente:
 
 ```php
 Array
@@ -247,9 +249,16 @@ Array
 
 ## Algunos otros métodos
 
-Para crear bloques de documentación a partir de arreglos, se utilizan dos instancias de la clase ‘DocBlockCreator’ del paquete ‘arielenter/array-to-phpdoc’. Uno crea bloques ‘doc’ con sangría izquierda para métodos, propiedades y constantes, y otro sin sangría para todos los demás. 
+Para crear bloques de documentación a partir de arreglos, se utilizan dos
+instancias de la clase ‘DocBlockCreator’ del paquete
+‘arielenter/array-to-phpdoc’. Uno crea bloques ‘doc’ con sangría
+izquierda para métodos, propiedades y constantes, y otro sin sangría para todos
+los demás. 
 
-Teniendo en cuenta lo anterior, los siguientes métodos pueden ser utilizados para establecer sus características, como por ejemplo que tan largo pueden ser el texto de un bloque de documentación antes de que sea ajustado en más de una linea.
+Teniendo en cuenta lo anterior, los siguientes métodos pueden ser utilizados
+para establecer sus características, como por ejemplo que tan largo pueden ser
+el texto de un bloque de documentación antes de que sea ajustado en más de una
+linea.
 
 ### método setMaxLineLength
 

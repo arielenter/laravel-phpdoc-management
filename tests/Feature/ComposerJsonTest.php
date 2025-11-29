@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use Arielenter\LaravelCodeSnippets\ComposerJson;
+use Facades\Arielenter\LaravelCodeSnippets\ComposerJson;
 use Arielenter\LaravelPhpdocManagement\ServiceProvider;
 use Arielenter\LaravelTestTranslations\TestTranslations;
 use PHPUnit\Framework\Attributes\Test;

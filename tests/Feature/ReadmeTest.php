@@ -49,7 +49,7 @@ class ReadmeTest extends TestCase
                 [ 'locale_links' => $this->getLocaleLinks($locales, $locale) ]
             ];
             $this->createReadmeFromTemplate(
-                'resources/README.template.md', $locale, ...$replaces
+                'resources/README.template.md', $locale, 81, ...$replaces
             );
         }
     }

@@ -33,7 +33,7 @@
     "require": {
         "arielenter/laravel-test-translations": "^1.5",
         "laravel/laravel": "^12.10",
-        "arielenter/laravel-code-snippets": "^1.0",
+        "arielenter/laravel-code-snippets": "2.0.0",
         "arielenter/array-to-phpdoc": "^2.0"
     },
     "require-dev": {

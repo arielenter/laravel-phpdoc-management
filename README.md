@@ -98,7 +98,8 @@ $phpdoc = [
             [ '@return', 'string', 'Return value desc.' ]
         ],
         'methodTwo' => [
-            'Summary.', ['@param', 'int', '$number', 'Argument ‘number’ desc.'],
+            'Summary.', ['@param', 'int', '$number', 'Argument ‘number’
+desc.'],
             [ '@return', 'void' ]
         ]
     ]
@@ -212,7 +213,8 @@ $new = $filePhpdocManager->translateKeys($original);
 
 ```
 
-If we use ‘print_r’ on the variable ‘$new’ we’ll now see that array’s key have been change accordingly:
+If we use ‘print_r’ on the variable ‘$new’ we’ll now see that array’s
+key have been change accordingly:
 
 ```php
 Array
@@ -240,9 +242,14 @@ Array
 
 ## Some other methods
 
-To create doc blocks form arrays, two instances of class ‘DocBlockCreator’ from the package arielenter/array-to-hpdoc are used. One creates doc blocks with an indentation for methods, properties and constants, and another without it for everything else.
+To create doc blocks form arrays, two instances of class ‘DocBlockCreator’
+from the package arielenter/array-to-hpdoc are used. One creates doc blocks with
+an indentation for methods, properties and constants, and another without it for
+everything else.
 
-With above mentioned in mind, the following methods are meant to be used to define their characteristics, like for instance, how long can a text from a doc block go before it is wrapped, and some other things.
+With above mentioned in mind, the following methods are meant to be used to
+define their characteristics, like for instance, how long can a text from a doc
+block go before it is wrapped, and some other things.
 
 ### method setMaxLineLength
 
