@@ -16,10 +16,10 @@ class PhpdocTest extends TestCase
     public function phpdoc_update(): void
     {
         $filePhpdocManager = new FilePhpdocManager('src/FilePhpdocManager.php');
-        $phpdoc = $this->tryGetTrans(
+        $trans = $this->tryGetTrans(
             ServiceProvider::TRANSLATIONS . '::phpdoc', locale: 'en'
         );
-        $trans = $filePhpdocManager->translateKeys($phpdoc);
-        $filePhpdocManager->update($trans);
+        $phpdoc = $filePhpdocManager->translateKeys($trans);
+        $filePhpdocManager->update($phpdoc);
     }
 }
